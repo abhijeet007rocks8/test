@@ -18,9 +18,17 @@ $pushaction = {
                 $changeType = $Event.SourceEventArgs.ChangeType
                 $logline = "$(Get-Date), $changeType, $path"
 	            write-host $logline
-	            git add .
+                git log
+                write-host "Git log"
+                git add .
+                write-host "Git add"
                 git commit -m $logline
+                write-host "Git commit"
+                git Status
+                write-host "Git status"
                 git push
+                write-host "Git push"
+                & ".\push.ps1  $logline"
              }
 
 Register-ObjectEvent $filewatcher "Created" -Action $pushaction
