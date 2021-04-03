@@ -1,0 +1,16 @@
+Step1-Excel at the NPTEL JAVA exam
+Step2- Make an awesome portfolio content 
+Step3- MAke a portfolio website out of it.
+step4- make resume
+step5- build projects
+      some project ideas sources-
+        .django or java spring projects using youtube.
+        .an automation script using python
+        .rock paper scissors app using react native
+        .some cool websites.
+        .an mini gaming app (android)
+        (having multiple games like tic-tac-toe(2P and CPU),Rock-paper-scissors(Human and CPU) and even-odd(human and CPU) )
+step6- increase github activity and add a cool about me readme.md for intro
+
+Priority one--
+change the background of notes app and upload scshots on github
